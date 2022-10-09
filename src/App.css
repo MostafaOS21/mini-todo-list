@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.before-layer {
+  @apply absolute w-[100vw] h-[100vh] bg-slate-900 top-0 left-0 z-40 opacity-80;
+}
+
+.center {
+  @apply left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.rounded-box {
+  @apply text-lg font-medium p-3 px-11 rounded-3xl w-[340px] text-center;
+}
+
+.not-done {
+  @apply bg-slate-600 hover:bg-slate-700;
+}
+
+.done {
+  @apply bg-green-600 hover:bg-green-700;
+}
